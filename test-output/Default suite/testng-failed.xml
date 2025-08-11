@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.AdditemTest">
+      <class name="test.CreateAccoutTest1">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="testRandomCategoryAndProduct"/>
+          <include name="testPasswordShort"/>
+          <include name="setup"/>
+          <include name="testInvalidEmail"/>
+          <include name="testMismatchedPasswords"/>
         </methods>
-      </class> <!-- test.AdditemTest -->
+      </class> <!-- test.CreateAccoutTest1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

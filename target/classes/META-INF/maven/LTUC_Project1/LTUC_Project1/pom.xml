@@ -3,26 +3,34 @@
   <groupId>LTUC_Project1</groupId>
   <artifactId>LTUC_Project1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-    <dependencies>
-  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+   <dependencies>
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.11.0</version>
     <scope>test</scope>
 </dependency>
-  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.33.0</version>
 </dependency>
+
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.3.2</version>  <!-- تأكد من أحدث نسخة -->
+</dependency>
+
+
+
+</dependencies>
   
   
-  
-  
-  
-  </dependencies>
   
   <build>
     <sourceDirectory>src</sourceDirectory>
