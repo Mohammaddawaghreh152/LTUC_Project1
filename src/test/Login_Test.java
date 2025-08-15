@@ -65,7 +65,7 @@ public class Login_Test {
 		  } 
 		  
 			  catch (Exception e) {
-			        System.out.println("not login " + e.getMessage());
+			        System.out.println("not login ");
 			 }
 		 
 		  }

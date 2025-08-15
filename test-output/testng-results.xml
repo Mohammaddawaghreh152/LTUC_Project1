@@ -1,49 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-15T15:49:34 EET" name="Default suite" finished-at="2025-08-15T15:50:09 EET" duration-ms="34458">
+  <suite started-at="2025-08-15T18:55:23 EET" name="Default suite" finished-at="2025-08-15T18:55:31 EET" duration-ms="8641">
     <groups>
     </groups>
-    <test started-at="2025-08-15T15:49:34 EET" name="Default test" finished-at="2025-08-15T15:50:09 EET" duration-ms="34458">
-      <class name="test.CreateAccoutTest1">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.CreateAccoutTest1@2cd76f31]" started-at="2025-08-15T15:49:34 EET" name="setup" finished-at="2025-08-15T15:49:47 EET" duration-ms="13045" status="PASS">
+    <test started-at="2025-08-15T18:55:23 EET" name="Default test" finished-at="2025-08-15T18:55:31 EET" duration-ms="8641">
+      <class name="test.Tests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Tests@367ffa75]" started-at="2025-08-15T18:55:23 EET" name="setup" finished-at="2025-08-15T18:55:29 EET" duration-ms="5780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSubmitForm()[pri:1, instance:test.CreateAccoutTest1@2cd76f31]" started-at="2025-08-15T15:49:47 EET" name="testSubmitForm" finished-at="2025-08-15T15:49:56 EET" duration-ms="8497" status="PASS">
+        <test-method signature="PrivacyandPolicy()[pri:3, instance:test.Tests@367ffa75]" started-at="2025-08-15T18:55:29 EET" name="PrivacyandPolicy" finished-at="2025-08-15T18:55:31 EET" duration-ms="2819" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSubmitForm -->
-        <test-method is-config="true" signature="log_out()[pri:0, instance:test.CreateAccoutTest1@2cd76f31]" started-at="2025-08-15T15:49:56 EET" name="log_out" finished-at="2025-08-15T15:49:59 EET" duration-ms="2962" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- log_out -->
-        <test-method signature="testInvalidEmail()[pri:2, instance:test.CreateAccoutTest1@2cd76f31]" started-at="2025-08-15T15:49:59 EET" name="testInvalidEmail" finished-at="2025-08-15T15:50:02 EET" duration-ms="3440" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidEmail -->
-        <test-method is-config="true" signature="log_out()[pri:0, instance:test.CreateAccoutTest1@2cd76f31]" started-at="2025-08-15T15:50:02 EET" name="log_out" finished-at="2025-08-15T15:50:02 EET" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- log_out -->
-        <test-method signature="testMismatchedPasswords()[pri:3, instance:test.CreateAccoutTest1@2cd76f31]" started-at="2025-08-15T15:50:02 EET" name="testMismatchedPasswords" finished-at="2025-08-15T15:50:07 EET" duration-ms="4337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMismatchedPasswords -->
-        <test-method is-config="true" signature="log_out()[pri:0, instance:test.CreateAccoutTest1@2cd76f31]" started-at="2025-08-15T15:50:07 EET" name="log_out" finished-at="2025-08-15T15:50:07 EET" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- log_out -->
-        <test-method signature="testPasswordShort()[pri:4, instance:test.CreateAccoutTest1@2cd76f31]" started-at="2025-08-15T15:50:07 EET" name="testPasswordShort" finished-at="2025-08-15T15:50:09 EET" duration-ms="2064" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPasswordShort -->
-        <test-method is-config="true" signature="log_out()[pri:0, instance:test.CreateAccoutTest1@2cd76f31]" started-at="2025-08-15T15:50:09 EET" name="log_out" finished-at="2025-08-15T15:50:09 EET" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- log_out -->
-      </class> <!-- test.CreateAccoutTest1 -->
+        </test-method> <!-- PrivacyandPolicy -->
+      </class> <!-- test.Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

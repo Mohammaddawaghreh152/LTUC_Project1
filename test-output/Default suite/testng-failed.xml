@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.CreateAccoutTest1">
+      <class name="test.Tests">
         <methods>
-          <include name="testPasswordShort"/>
+          <include name="logOut"/>
           <include name="setup"/>
-          <include name="testMismatchedPasswords"/>
-          <include name="log_out"/>
         </methods>
-      </class> <!-- test.CreateAccoutTest1 -->
+      </class> <!-- test.Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
