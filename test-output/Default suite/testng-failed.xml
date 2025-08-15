@@ -7,8 +7,8 @@
         <methods>
           <include name="testPasswordShort"/>
           <include name="setup"/>
-          <include name="testInvalidEmail"/>
           <include name="testMismatchedPasswords"/>
+          <include name="log_out"/>
         </methods>
       </class> <!-- test.CreateAccoutTest1 -->
     </classes>

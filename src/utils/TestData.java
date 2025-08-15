@@ -1,9 +1,5 @@
 package utils;
-
 import java.util.Random;
-//import java.util.UUID;
-
-//import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class TestData {
@@ -17,17 +13,20 @@ public class TestData {
 	    public static String getRandomLastName() {
 	        String[] names = {"alaa", "saif", "abduallah", "hamzeh", "marwan", "abedalrahman", "omar","yazan"};
 	        return names[rand.nextInt(names.length)];
+	        
 	    }
 
 	    public static String getEmail(String first, String last) {
 	        return first + last + rand.nextInt(7000) + "@gmail.com";
 	    }
+	    
 
 	    public static String ValidPassword = "Mm12345%";
-	    public static String Invalid_Email = "mohammad%gmail.com";
+	   public static String Invalid_Email_formate = "mohammad%gmail.com";
 	    public static String Mismatch_password = "Mm5889321!";
 	    public static String Short_password = "Mm1";
-	    public static String Invalid_password = "wrongpassword123";
+	    public static String Valid_email = "mohammad233@gmail.com";
+	    public static String email_notregistered = "mohammadwajeh1254829@gmail.com";
 
 	  
 	}
