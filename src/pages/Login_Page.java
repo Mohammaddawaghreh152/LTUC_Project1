@@ -26,10 +26,4 @@ public class Login_Page {
 
 
 
-		public void Test_login_account() {
-			// TODO Auto-generated method stub
-			
-		}
-
-
 }

@@ -1,6 +1,12 @@
 package utils;
+//import java.util.List;
 import java.util.Random;
+
+import org.openqa.selenium.By;
+//import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class TestData {
 	  public WebDriver driver;
@@ -28,8 +34,9 @@ public class TestData {
 	    public static String Valid_email = "mohammad233@gmail.com";
 	    public static String email_notregistered = "mohammadwajeh1254829@gmail.com";
 
-	  
-	}
-
-
-
+	    public static void SearchData(String Data , WebDriver driver) {
+	    	WebElement Search = driver.findElement(By.id("search"));
+			Search.sendKeys(Data);
+			Search.sendKeys(Keys.ENTER);
+	    	
+	    }}
